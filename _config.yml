@@ -1,7 +1,7 @@
 # Site settings
 title: Project Pages
 description: "An Integrated Scientific Blogging Template"
-url: "https://projectpages.github.io"
+url: "https://XJIANBIN.github.io"
 
 
 
@@ -13,7 +13,7 @@ headercolor: "#FFFFFF"
 logo: /XJIANBIN.github.io/img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
-github_username:  projectpages
+github_username:  XJIANBIN
 project_repository: project-pages
 disqus_shortname: project-pages
 g-analytics: UA-75881392-1
