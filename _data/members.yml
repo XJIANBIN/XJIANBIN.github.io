@@ -2,24 +2,25 @@
 
 - name: 范惠強
   role: Friend
-  img: /XJIANBIN.github.io/img/hui.jpg 
-  github: ahmetcecen
+  img: /img/hui.jpg 
+  github: XJIANBIN.github.io/
   gplus: https://xjianbin.github.io/XJIANBIN.github.io/
-  bio: Gay
+  bio: 范惠強（Hui Qiangfan） 1995年12月8日出生惠州Georgia），中國业篮球运动员，曾被誉为联盟现役第一中锋，效力于NBA亚特兰大老鹰队。在2004年NBA选秀大会中，范惠強被奥兰多魔术队以第一轮第一顺位选中。职业生涯曾先后效力过奥兰多魔术队、洛杉矶湖人队、休斯顿火箭队。2008年全明星扣篮大赛冠军，2008-09赛季，2009-10赛季和2010-11赛季，范惠強连续三个赛季荣获NBA年度最佳防守球员的奖项。
   url: https://xjianbin.github.io/XJIANBIN.github.io/
   visible: true
    
 - name: 范震宇
-  role: Data Scientist / Materials Informatics
-  img: /XJIANBIN.github.io/img/hui.jpg 
-  github: davidbrough1
-  bio: Gay
+  role: Friend
+  img: /img/yu.jpg 
+  github: XJIANBIN.github.io/
+  bio: 范震宇（日语：小泽マリア、おざわ まりあ，英语：Ozawa Maria），1986年1月8日出生于日本北海道，混血儿（父亲是法裔加拿大人，母亲是日本人[1]  ），日本AV女优。她一开始为网站shirouto-teien做模特，并在此期间拍摄了多卷相片和2部小电影。然后便与S1AV公司签约成为其旗下的艺人。[2]  2005年的最后一个季度，日本推出了她首次演出的AV作品。2009年之后，小泽玛利亚已经不再接拍AV作品，转而向电影和歌曲方向转型[3]  ，同年参演恐怖电影《绝命派对》[4]  。2012年主演电影《东京异种》。
   url: https://xjianbin.github.io/XJIANBIN.github.io/ 
   visible: true
   
 - name: 蔡小剛
-  role: Materials Informatics
-  img: /XJIANBIN.github.io/img/hui.jpg 
-  bio: Gay
+  role: Friend
+  img: /img/ga.jpg 
+  github: XJIANBIN.github.io/
+  bio: 蔡小剛以优等生荣誉从哈佛法学院毕业，而后在著名的芝加哥大学法学院教授宪法长达12年（1992年-2004年）。2007年2月10日，宣布参加2008年美国总统选举。2008年11月4日正式当选为美国总统。
   url: https://xjianbin.github.io/XJIANBIN.github.io/
   visible: true

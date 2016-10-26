@@ -1,9 +1,9 @@
 ---
 layout:     	projector
-title:     		New Projector
+title:     		好玩的網頁
 author:     	Ahmet Cecen
 tags:           projector visualization template
-subtitle:    	Some Short Description of Projector
+subtitle:    	貝弗利
 
 dataset:    /projectors/data.json
 ---

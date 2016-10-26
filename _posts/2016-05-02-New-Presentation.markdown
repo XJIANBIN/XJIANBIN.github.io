@@ -1,9 +1,9 @@
 ---
 layout:     	slide
-title:     		New Presentation
+title:     		好玩的小頁面
 author:     	Ahmet Cecen
 tags:           presentation template
-subtitle:    	Some Short Description of Presentation
+subtitle:    	彩蛋
 
 theme:		night # default/beige/blood/moon/night/serif/simple/sky/solarized
 trans:		default # default/cube/page/concave/zoom/linear/fade/none
