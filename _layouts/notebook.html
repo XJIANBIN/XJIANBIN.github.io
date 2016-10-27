@@ -12,7 +12,7 @@ layout: default
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <span class="meta">Posted by {{ page.author }} on {{ page.date | date: "%B %-d, %Y" }}</span>	
+                    <span class="meta">Posted by {{ page.author }} on {{ page.date | date: "%B %-d, %Y" }} / <span id="busuanzi_container_page_pv">本頁阅读量 <span id="busuanzi_value_page_pv"></span></span></span>	
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@ layout: default
 		<h4 class="post-subtitle">{{ post.subtitle }}</h4>
 	{% endif %}
 	
-	<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+	<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }} / <span id="busuanzi_container_page_pv">本頁阅读量 <span id="busuanzi_value_page_pv"></span></span></p>
 	
 	<div class="notepad-index-post-tags" style="">
 	{% for tag in post.tags %}<a href="{{ site.baseurl }}/search/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
@@ -102,7 +102,7 @@ layout: default
 			<h4 class="post-subtitle">{{ post.subtitle }}</h4>
 		{% endif %}
 		
-		<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+		<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }} / <span id="busuanzi_container_page_pv">本頁阅读量 <span id="busuanzi_value_page_pv"></span></span></p>
 		
 		<div class="notepad-index-post-tags" style="">
 		{% for tag in post.tags %}<a href="{{ site.baseurl }}/search/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
@@ -124,7 +124,7 @@ layout: default
 			<h4 class="post-subtitle">{{ post.subtitle }}</h4>
 		{% endif %}
 		
-		<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+		<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }} / <span id="busuanzi_container_page_pv">本頁阅读量 <span id="busuanzi_value_page_pv"></span></span></p>
 		
 		<div class="notepad-index-post-tags" style="">
 		{% for tag in post.tags %}<a href="{{ site.baseurl }}/search/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
@@ -318,9 +318,8 @@ end
 </article>
 
 <hr>
-
-{% include _comments.html %}
-
+<div class="ds-thread container" data-thread-key="{{ page.key }}"  data-title="{{ page.title }}"  data-url="{{ post.url | prepend: site.baseurl }}" data-form-position="top" data-limit="30" data-order="desc" ></div>
+<!--{% include _comments.html %}-->
 <hr>
 
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Members"
-description: "Collaborators working on this project."
+title: "Donator"
+description: "Thank you for the support of our friends on this site. "
 header-img: "img/home-bg.jpg"
 ---
 <hr>
@@ -29,8 +29,11 @@ header-img: "img/home-bg.jpg"
 	{% if member.bio %} 
 	{{ member.bio }}
 	{% endif %}
-	
 	<hr>
-
 {% endif %}{% endfor %}
+        <div class="container">
+			<p style="font-size:48px;">#打救一下處在水深火熱中的博主！</p>
+		<img style="width:750px;" src="{{ "/img/2.jpg" | prepend: site.baseurl }}" ></img>
+		</div>
+		
 

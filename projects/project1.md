@@ -3,6 +3,6 @@ layout: project
 title: "隨筆"
 description: "重度精神病患者的自述"
 header-img: "img/huo.jpg"
-category: 隨筆
+category: suibi
 ---
-# 正在開發中，請繼續關注喔！！！
+
