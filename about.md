@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "热爱音乐，喜欢篮球，业余健身！"
-header-img: "img/my.jpg"
+header-img: "img/my.png"
 ---
 
 ### 關於
