@@ -7,10 +7,10 @@ header-img: "img/my.png"
 
 ### 關於
 
-   大三旺，電子信息工程，熱衷於前端特效（鄙視臉）。	  
-	   
-> 1. 居住地：廣州					
-> 2. 聯繫郵箱：907149609@qq.com					
-> 3. 知乎：[https://www.zhihu.com/people/jianbin-xu](https://www.zhihu.com/people/jianbin-xu)
+   大三旺，電子信息工程，致力于推动科学技术发展！（鄙視臉）。	  
+ 
+ > 1. 居住地：廣州					
+ > 2. 聯繫郵箱：907149609@qq.com					
+ > 3. 知乎：[https://www.zhihu.com/people/jianbin-xu](https://www.zhihu.com/people/jianbin-xu)
 	
 ### 正在開發中，歡迎各位朋友為本站提出建議！(*^__^*) 嘻嘻……)
