@@ -50,13 +50,12 @@ templates['demoa'] = template({"1":function(container,depth0,helpers,partials,da
 ```	
 
 	
-> 记得使用预编译命令的时候最好不要 -m哦，这是压缩的命令，压缩完会比较难看，一般项目上线才进行压缩！！
-
-
-## 最后再贴几个有用的网址链接吧！
+> 记得使用预编译命令的时候最好不要 -m哦，这是压缩的命令，压缩完会比较难看，一般项目上线才进行压缩！
 	
 
-> 1. [handlebars.js Bootstrap中文网开源项目免费 CDN 服务](http://www.bootcdn.cn/handlebars.js/)
+> 1. 到此这篇文章本来就可以结束了，但是，我们上面引用的是handlebars.js这个文件，这个文件未压缩的情况下有140K，官方给出了另外一个可以进一步节约带宽，而且更加适合
+	移动端加载的方案，那就是使用体积更小的runtime文件，也就是handlebar.runtime.js这个文件,这个文件在未压缩的情况下也只有24K，[handlebars.js Bootstrap中文网开源
+	项目免费 CDN 服务](http://www.bootcdn.cn/handlebars.js/)这个网址上面可以下载到runtime版本的JS，
 
 
 ## 后续
