@@ -15,9 +15,8 @@ key:          handlebars
 	
 ## 关于预编译走过的弯路！	
 	
-> 国内的文章对于预编译的介绍如[此文](http://www.gbtags.com/gb/share/5764.htm)，
-    [handlebars官网](http://handlebarsjs.com/precompilation.html)
-	对于handlebars预编译的调用写法都是
+> 国内的文章对于预编译的介绍如[此文](http://www.gbtags.com/gb/share/5764.htm)，[handlebars官网](http://handlebarsjs.com/precompilation.html)对
+于handlebars预编译的调用写法都是
 
 	
 ```javascript	
@@ -30,7 +29,7 @@ key:          handlebars
 
 ```javascript	
 	var logo=Handlebars.templates.[预编译命令得到的JS文件名](数据);
-	 $('#logo').html(logo);  
+	 $('#logo').html(foo);  
 ```	
 
 	
@@ -39,8 +38,8 @@ key:          handlebars
 
 ## 就这么点干货吗？
 > NONONO!有的小伙伴肯定有疑问，一个模板文件就是一个JS，而页面一般都是5个以上的handlebars模板吧，那这样我的htnl头部不得都是JS的引入吗？
-O(∩_∩)O哈哈~我当然也不允许这么LOW啦（和我一起研究的小伙伴一直相放弃，鄙视脸！！！），最后翻开得到的那个JS文件看，里面是有个文件名同样的对象的，
-一开始我们也以为是通过文件名来调用的，这下好啦，只要我们把其他生成的JS文件手动复制到同一个JS文件就行啦，也就是如下代码，
+O(∩_∩)O哈哈~我当然也不允许这么LOW啦♪(^∇^*)，最后翻开得到的那个JS文件看，里面是有个文件名同样的对象的，一开始我们也以为是通过文件名来
+调用的，这下好啦，只要我们把其他生成的JS文件手动复制到同一个JS文件就行啦，也就是如下代码，
 
 	
 ```javascript
@@ -54,8 +53,8 @@ templates['demoa'] = template({"1":function(container,depth0,helpers,partials,da
 	
 
 > 1. 到此这篇文章本来就可以结束了，但是，我们上面引用的是handlebars.js这个文件，这个文件未压缩的情况下有140K，官方给出了另外一个可以进一步节约带宽，而且更加适合
-	移动端加载的方案，那就是使用体积更小的runtime文件，也就是handlebar.runtime.js这个文件,这个文件在未压缩的情况下也只有24K，[handlebars.js Bootstrap中文网开源
-	项目免费 CDN 服务](http://www.bootcdn.cn/handlebars.js/)这个网址上面可以下载到runtime版本的JS，
+移动端加载的方案，那就是使用体积更小的runtime文件，也就是handlebar.runtime.js这个文件,这个文件在未压缩的情况下也只有24K，[handlebars.js Bootstrap中文网开源
+项目免费 CDN 服务](http://www.bootcdn.cn/handlebars.js/)这个网址上面可以下载到runtime版本的JS，
 
 
 ## 后续
