@@ -59,3 +59,6 @@ templates['demoa'] = template({"1":function(container,depth0,helpers,partials,da
 
 ## 后续
 其实handelbars还有更方便的用法，就是结合gulp来使用，这回就先写到这里，以后有机会再更吧！(*^__^*) 嘻嘻…..
+	
+## 12.4更新
+上面第一种方式今天居然可以了，反倒是外国友人那种不行了，真是奇怪，大家用到的时候看看吧。
