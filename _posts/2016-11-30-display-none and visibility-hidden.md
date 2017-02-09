@@ -87,5 +87,4 @@ key:          css_none
 
 > 1. display:none是把一整块div取消了，不占空间，而visibility:是不可见但是占据那块空间的。因为我的遮罩层小div是浮动的，所以当前面的div消失，会自动补上，然后一个个
 触发onmouseover事件，自然就出现了上面的那种效果，这种效果挺好的，刚好最近在做一个图片墙，刚好用来增加特效。
-
-> 2. 上述把display:none改为visibility:hidden，或者opacity：0.1就可以达到目的效果了！
+  2. 上述把display:none改为visibility:hidden，或者opacity：0.1就可以达到目的效果了！
