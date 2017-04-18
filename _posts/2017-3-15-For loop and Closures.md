@@ -44,8 +44,8 @@ key:            forandClosures
 ## 常见的for循环与闭包
 
 ```javascript
-   for(var i=0,arr=[];i<=3;i++) {
-    arr.push(function(){console.log(i)});
+	for(var i=0,arr=[];i<=3;i++) {
+		arr.push(function(){console.log(i)});
     } 	
 ```
  
@@ -57,9 +57,9 @@ key:            forandClosures
  
 ```javascript
     for(var i = 0; i < 10; i++) {
-    setTimeout(function() {
-    console.log(i);
-    }, 1000);
+		setTimeout(function() {
+		console.log(i);
+		}, 1000);
     }
 ```
 
