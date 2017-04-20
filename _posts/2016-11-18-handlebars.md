@@ -28,7 +28,7 @@ key:          handlebars
 
 
 ```javascript	
-	var logo=Handlebars.templates.[预编译命令得到的JS文件名](数据);
+	var logo=Handlebars.templates[“预编译命令得到的JS文件名”](数据); //切记加上引号
 	 $('#logo').html(foo);  
 ```	
 
