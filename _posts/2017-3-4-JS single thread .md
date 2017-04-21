@@ -3,7 +3,7 @@ layout:     	notebook
 title:     	    什么是JS为单线程及单线程如何运作？
 description:    JS单线程原理
 author:     	許健彬
-tags:      	    JS single thread 
+tags:      	    JS
 subtitle:     	JS单线程原理
 category:     	project
 key:            jssinglethread

@@ -2,7 +2,7 @@
 layout:     	slide
 title:     		好玩的小頁面
 author:     	Ahmet Cecen
-tags:           presentation template
+tags:           template
 subtitle:    	彩蛋
 
 theme:		night # default/beige/blood/moon/night/serif/simple/sky/solarized

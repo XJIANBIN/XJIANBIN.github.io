@@ -3,7 +3,7 @@ layout:     	notebook
 title:     	    JS 闭包问题 与for循环
 description:    闭包问题 与for循环
 author:     	許健彬
-tags:      	    Closures
+tags:      	    JS
 subtitle:     	For loop and Closures
 category:     	project
 key:            forandClosures

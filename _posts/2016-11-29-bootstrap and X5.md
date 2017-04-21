@@ -3,7 +3,7 @@ layout:     	notebook
 title:     	bootstrap在微信浏览器的小坑
 description:     	overflow:hidden失效！
 author:     	許健彬
-tags:      	bootsrtap tip
+tags:      	frame
 subtitle:     	overflow:hidden失效！
 category:     	project
 key:          JS_bootstrap

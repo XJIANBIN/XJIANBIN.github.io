@@ -3,7 +3,7 @@ layout:     	notebook
 title:     	handlebars预编译
 description:     至今在国内没见过正确的预编译写法！	
 author:     	許健彬
-tags:      	 tip  handlebars
+tags:      	   template
 subtitle:     	 担保你不会白来这一趟！
 category:     	project
 key:          handlebars

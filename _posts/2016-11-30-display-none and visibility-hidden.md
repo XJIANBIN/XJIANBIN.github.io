@@ -3,7 +3,7 @@ layout:     	notebook
 title:     	display:none和visibility:hidden的区别！
 description:     测试	
 author:     	許健彬
-tags:      	 css  
+tags:      	 CSS
 subtitle:     	 希望对你有帮助！
 category:     	project
 key:          css_none

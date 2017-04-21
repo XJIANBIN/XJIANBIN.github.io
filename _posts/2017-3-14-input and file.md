@@ -3,7 +3,7 @@ layout:     	notebook
 title:     	    高兼容性的清空input file方案
 description:    项目点滴
 author:     	許健彬
-tags:      	    JS  input file
+tags:      	    Jquery
 subtitle:     	项目点滴
 category:     	project
 key:            inputfile
