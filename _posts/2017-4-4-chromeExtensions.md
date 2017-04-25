@@ -58,7 +58,7 @@ handlebars提供的功能在项目中有点问题）
 清明假期就这么过了。虽然没有去玩（单身狗玩什么？还是学习好，学习使我快乐！(*^__^*)），但是过得很充实。还是蛮有成就感的。
 
 参考文章
-
+* [建立 Chrome 扩展程序](https://crxdoc-zh.appspot.com/extensions/getstarted)
 * [谷歌插件API文档](https://developer.chrome.com/extensions/api_index)
 * [Chrome扩展及应用开发（首发版）] (http://www.ituring.com.cn/book/1421)   
 * [Chrome扩展及应用开发](http://www.ituring.com.cn/minibook/950)
