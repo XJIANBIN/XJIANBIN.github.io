@@ -3,8 +3,9 @@ layout: default
 
 ---
 
-<!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<!-- Page Header  background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}') -->
+<header class="intro-header" id="header" style="background-color: #e1e1e1;">
+	<canvas id="Mycanvas" ></canvas>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -33,3 +34,21 @@ layout: default
 </div>
 
 <hr>
+<script src="{{ "/js/indexcanvas.js " | prepend: site.baseurl | prepend: site.url }}"></script>
+	<script src="{{ "/js/wow.min.js " | prepend: site.baseurl | prepend: site.url }}"></script>
+<script>
+	new WOW().init();
+			init();
+			setInterval(function () {
+				for (var i = 0; i < POINT; i++) {
+					var cir = circleArr[i];
+					cir.x += cir.moveX;
+					cir.y += cir.moveY;
+					if (cir.x > WIDTH) cir.x = 0;
+					else if (cir.x < 0) cir.x = WIDTH;
+					if (cir.y > HEIGHT) cir.y = 0;
+					else if (cir.y < 0) cir.y = HEIGHT;
+				}
+				draw();
+			}, 10);
+</script>
