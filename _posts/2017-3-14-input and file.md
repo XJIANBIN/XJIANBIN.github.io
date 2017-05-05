@@ -29,7 +29,7 @@ key:            inputfile
      input.replaceWith(input.val('').clone(true));
 ```
  
- 但这个方法兼容不了IE8，因为IE8说为了保护用户安全，把文件上传区设置为只读，所以设置val()会失效，详细可看[IE官方博客](https://blogs.msdn.microsoft.com/ie/2008/07/02/ie8-security-part-v-comprehensive-protection/);
+ 但这个方法兼容不了IE8，因为IE8说为了保护用户安全，把文件上传区设置为只读，所以设置val()会失效，详细可看[链接:IE官方博客](https://blogs.msdn.microsoft.com/ie/2008/07/02/ie8-security-part-v-comprehensive-protection/);
  
  可以用之前先判断一下是否为IE
  

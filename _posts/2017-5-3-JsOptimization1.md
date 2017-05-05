@@ -87,11 +87,11 @@ key:            optimization1
 ```
 
 ## 五.其他完整实现
-比较简单的实现如上一小节，其实里面还有一些细节，我们可以借鉴一下其他库函数的实现，毕竟是人家几百个工程师实践出来的，肯定比我们想得周到。Jquery和underscore和lodash都实现了这两个方法，他们内部实现有点不一样，但提供的接口基本一样，下面我只介绍一下jq的实现方法和参数意义，其他的差不多，大家选择性使用。可参考[Debouncing and ThrottlingExplained 
+比较简单的实现如上一小节，其实里面还有一些细节，我们可以借鉴一下其他库函数的实现，毕竟是人家几百个工程师实践出来的，肯定比我们想得周到。Jquery和underscore和lodash都实现了这两个方法，他们内部实现有点不一样，但提供的接口基本一样，下面我只介绍一下jq的实现方法和参数意义，其他的差不多，大家选择性使用。可参考[链接:Debouncing and ThrottlingExplained 
 Through Examples](https://css-tricks.com/debouncing-throttling-explained-examples/)这篇文章，里面介绍得很清楚。
 > ### 1.Jquery
 
-这里我使用的是[JQ的jquery.ba-throttle-debounce.js插件](http://www.bootcdn.cn/jquery-throttle-debounce/)可自行下载
+这里我使用的是[链接:JQ的jquery.ba-throttle-debounce.js插件](http://www.bootcdn.cn/jquery-throttle-debounce/)可自行下载
 源码封装了jq的写法，这里我将其去除了，也加了一些注释。
 
 #### 参数作用
@@ -180,7 +180,7 @@ $(window).on('scroll', function() {
 
 > ### 2 underscore V1.7.0 
 
-这里提一下[underscore1.7.0中文文档](http://learningcn.com/underscore/#debounce)这份中文文档里面关于`debounce`的immediate 参数的描述与英文文档不符，如下
+这里提一下[链接:underscore1.7.0中文文档](http://learningcn.com/underscore/#debounce)这份中文文档里面关于`debounce`的immediate 参数的描述与英文文档不符，如下
 
 <img src="{{ "/img/immediate .jpg" | prepend: site.baseurl }}" style="width:100%;height:350px;">
 
@@ -189,7 +189,7 @@ $(window).on('scroll', function() {
 
 ### 六.扩展requestAnimationFrame 
 
-翻译自[Debouncing and ThrottlingExplained Through Examples](https://css-tricks.com/debouncing-throttling-explained-examples/)
+翻译自[链接:Debouncing and ThrottlingExplained Through Examples](https://css-tricks.com/debouncing-throttling-explained-examples/)
 requestAnimationFrame是限制功能执行的另一种方式。它可以认为是_.throttle（dosomething，16）。但是具有更高的保真度，因为它是一种浏览器本机API，旨在提高准确性。
 
 > #### 优点
@@ -201,7 +201,7 @@ requestAnimationFrame是限制功能执行的另一种方式。它可以认为�
 
 * rAF的开始/取消得我们手动调用，不像`.debounce`或`.throttle`，它在内部进行管理。
 * 如果浏览器选项卡未激活，则不会执行。虽然在滚动，鼠标或键盘事件不存在这种可能性。
-* 虽然所有现代浏览器都提供rAF，但IE9，Opera Mini和旧版Android仍然不支持(仍需polyfill,可查看[requestAnimationFrame for Smart Animating](https://www.paulirish.com/2011/requestanimationframe-for-smart-animating/),这个解决方案现在还需要)。
+* 虽然所有现代浏览器都提供rAF，但IE9，Opera Mini和旧版Android仍然不支持(仍需polyfill,可查看[链接:requestAnimationFrame for Smart Animating](https://www.paulirish.com/2011/requestanimationframe-for-smart-animating/),这个解决方案现在还需要)。
 * node.js不支持rAF，因此您无法在服务器上使用它来限制文件系统事件。
 
 根据经验，如果您的JavaScript函数是“绘画”，涉及重新计算元素位置的所有内容中使用`requestAnimationFrame`，能让你的动画更加顺滑不卡顿。
@@ -211,9 +211,9 @@ requestAnimationFrame是限制功能执行的另一种方式。它可以认为�
 
 
 ### 八.参考文章
-[Debounce and Throttle: a visual explanation](http://drupalmotion.com/article/debounce-and-throttle-visual-explanation)                                 
+[链接:Debounce and Throttle: a visual explanation](http://drupalmotion.com/article/debounce-and-throttle-visual-explanation)                                 
 
-[jQuery throttle / debounce: Sometimes, less is more!](http://benalman.com/projects/jquery-throttle-debounce-plugin/)
+[链接:jQuery throttle / debounce: Sometimes, less is more!](http://benalman.com/projects/jquery-throttle-debounce-plugin/)
 
 
 

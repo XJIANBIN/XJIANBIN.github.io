@@ -13,7 +13,7 @@ key:            chrome
 ## 一.前记
 
 清明期间，闲着无事，正好要报名驾照考试的约课，受到一位同学启发，所以就尝试了一把chrome extensions的开发。写下这篇文章，记录一下学习所用资料与遇到几个小问题，方便以后
-查阅。这是项目[源码](https://github.com/XJIANBIN/Lesson-assistant)，有需要的朋友可以下载查看交流。
+查阅。这是项目[链接:源码](https://github.com/XJIANBIN/Lesson-assistant)，有需要的朋友可以下载查看交流。
 
 ## 二.小弯路
  
@@ -50,7 +50,7 @@ key:            chrome
 有没有觉得这个数组很奇怪，为什么外面显示长度为0，里面却有数据而且长度为4？
 问题出在这个代码上，因为这个代码是异步去获取chrome.storage，而下面console出来的时候，还没获取到，里面的数据是异步加进去的，所以才会显示成这样。
 
-> 7 . [JSCompress ](https://jscompress.com/) 最后安利一个使用UglifyJS2压缩和最小化的在线网站，可以把所有JS打包成一个js文件，我们项目中用来打包Handlebars模板文件（因为
+> 7 . [链接:JSCompress ](https://jscompress.com/) 最后安利一个使用UglifyJS2压缩和最小化的在线网站，可以把所有JS打包成一个js文件，我们项目中用来打包Handlebars模板文件（因为
 handlebars提供的功能在项目中有点问题）
 
 ## 三.总结

@@ -57,7 +57,7 @@ key:             Vue
 > #### 这时前端开发就暴露出了三个痛点问题：
 
 * 1、开发者在代码中大量调用相同的 DOM API, 处理繁琐 ，操作冗余，使得代码难以维护。 
-* 2、大量的DOM 操作使页面渲染性能降低，加载速度变慢，影响用户体验。[高频dom操作和页面性能优化探索](https://feclub.cn/post/content/dom)
+* 2、大量的DOM 操作使页面渲染性能降低，加载速度变慢，影响用户体验。[链接:高频dom操作和页面性能优化探索](https://feclub.cn/post/content/dom)
 * 3、当 Model 频繁发生变化，开发者需要主动更新到View ；当用户的操作导致 Model 发生变化，开发者同样需要将变化的数据同步到Model 中，这样的工作不仅繁琐，而且很难维护复杂多变的数据状态。
 
 其实，早期jquery 的出现就是为了前端能更简洁的操作DOM 而设计的，但它只解决了第一个问题，另外两个问题始终伴随着前端一直存在。
@@ -89,7 +89,7 @@ Vue.js 是采用 Object.defineProperty 的 getter 和 setter，并结合观察�
 
 当数据发生变化时，Observer 中的 setter 方法被触发，setter 会立即调用Dep.notify()，Dep 开始遍历所有的订阅者，并调用订阅者的 update 方法，订阅者收到通知后对视图进行相应的更新。
 
-以上分析借鉴[@by 一像素](http://www.cnblogs.com/onepixel/p/6034307.html)
+以上分析借鉴[链接:@by 一像素](http://www.cnblogs.com/onepixel/p/6034307.html)
 
 ## 四.Jquery VS Vue
 

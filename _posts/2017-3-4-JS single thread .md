@@ -76,17 +76,17 @@ key:            jssinglethread
    
    详细深层次的原因可以看以下文章
    
-> 1. [JavaScript时钟间隔的问题～](http://blog.csdn.net/aimingoo/article/details/1449258)
-> 2. [再谈JavaScript时钟中的16ms精度问题．](http://blog.csdn.net/aimingoo/article/details/1451556)
+> 1. [链接:JavaScript时钟间隔的问题～](http://blog.csdn.net/aimingoo/article/details/1449258)
+> 2. [链接:再谈JavaScript时钟中的16ms精度问题．](http://blog.csdn.net/aimingoo/article/details/1451556)
 
 
 
 ### 五 本文参考文章
 
 
-> 1. [细说JavaScript单线程的一些事](http://www.codeceo.com/article/javascript-threaded.html)此文下方参考文章也有借鉴意义
-> 2. [阮一峰老师：JavaScript 运行机制详解：再谈Event Loop](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
-> 3.  [Javascript是单线程的深入分析](http://www.cnblogs.com/Mainz/p/3552717.html)
+> 1. [链接:细说JavaScript单线程的一些事](http://www.codeceo.com/article/javascript-threaded.html)此文下方参考文章也有借鉴意义
+> 2. [链接:阮一峰老师：JavaScript 运行机制详解：再谈Event Loop](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
+> 3.  [链接:Javascript是单线程的深入分析](http://www.cnblogs.com/Mainz/p/3552717.html)
 
 
 
