@@ -156,3 +156,9 @@ prose:
           element: "checkbox"
           label: "Visual Workflow Chart (Some Layouts)"
           value: "true"
+
+deploy:
+  type: git
+  repo:
+      github: git@github.com:XJIANBIN/XJIANBIN.github.io.git,master
+      coding: git@git.coding.net:XJIANBIN/XJIANBIN.github.io.git,master
