@@ -1,0 +1,73 @@
+---
+layout: default
+
+---
+
+<!-- Page Header  background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}') -->
+<header class="intro-header" id="header" style="background-color: #e1e1e1;">
+	<canvas id="Mycanvas" ></canvas>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading" style="padding: 75px 0">
+					{% if page.url == '/' %}
+					{% if site.logo %}
+					<img src= "{{ site.logo }}" style="height: 150px">
+					{% endif %}	
+					{% else %}{% endif %}	
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <hr class="small">
+                    <span class="subheading">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			{{ content }}
+		</div>
+	</div>
+</div>
+
+<hr>
+
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+	<!-- 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  -->
+        <!-- 代码2：用来读取评论框配置，此代码需放置在代码1之后。 -->
+        <!-- 如果当前页面有评论框，代码2请勿放置在评论框代码之前。 -->
+        <!-- 如果页面同时使用多个实验室项目，以下代码只需要引入一次，只配置上面的div标签即可 -->
+        <script type="text/javascript" charset="utf-8" src="https://changyan.itc.cn/js/lib/jquery.js"></script>
+        <script type="text/javascript" charset="utf-8" src="https://changyan.sohu.com/js/changyan.labs.https.js?appid=cysVi4LX0"></script>
+        <!--<div class="ds-thread container" data-thread-key="{{ page.key }}"  data-title="{{ page.title }}"  data-url="{{ page.url | prepend: site.baseurl }}"  ></div>-->
+        <!--{% include _comments.html %}-->
+        <div id="SOHUCS" sid="{{ page.key }}"></div>
+        <script charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/changyan.js" ></script>
+        <script type="text/javascript">
+        window.changyan.api.config({
+        appid: 'cysVi4LX0',
+        conf: 'prod_3a8f3c7e6e865af3307958ac63ce33ea'
+        });
+        </script>
+	</div>
+<script src="{{ "/js/indexcanvas.js " | prepend: site.baseurl | prepend: site.url }}"></script>
+	<script src="{{ "/js/wow.min.js " | prepend: site.baseurl | prepend: site.url }}"></script>
+<script>
+	new WOW().init();
+			init();
+			setInterval(function () {
+				for (var i = 0; i < POINT; i++) {
+					var cir = circleArr[i];
+					cir.x += cir.moveX;
+					cir.y += cir.moveY;
+					if (cir.x > WIDTH) cir.x = 0;
+					else if (cir.x < 0) cir.x = WIDTH;
+					if (cir.y > HEIGHT) cir.y = 0;
+					else if (cir.y < 0) cir.y = HEIGHT;
+				}
+				draw();
+			}, 10);
+</script>
