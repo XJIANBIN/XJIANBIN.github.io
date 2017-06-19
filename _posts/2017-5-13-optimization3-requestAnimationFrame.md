@@ -22,7 +22,7 @@ key:            optimization3
 * setTime只在固定的时间内更新，而不是在计算机合适的时候。也就是说，当计算机屏幕重绘的速度跟动画的帧速率不一致时，浏览器就会重新绘制整个屏幕，这无疑会花费计算机的处
 理能力，也意味着更高的CPU和风扇的使用率，或者移动设备的电池消耗。
 
-*另外一种需要考虑的情况是：当一次性多个元素的动画。一种解决方法是通过把所有的动画逻辑放在一个时间间隔内，但这样会带来一个问题即是当前帧不需要的动画也会运行。一种替代方案便是使用单独的时间间隔。但这同样也会带来每一次你移动屏幕上的一些东西，你的浏览器会重绘，造成浪费的问题。(翻译得不好，所以放上原文，便于读者理解）。
+* 另外一种需要考虑的情况是：当一次性多个元素的动画。一种解决方法是通过把所有的动画逻辑放在一个时间间隔内，但这样会带来一个问题即是当前帧不需要的动画也会运行。一种替代方案便是使用单独的时间间隔。但这同样也会带来每一次你移动屏幕上的一些东西，你的浏览器会重绘，造成浪费的问题。(翻译得不好，所以放上原文，便于读者理解）。
 Another consideration is the animation of multiple elements at once. One way to approach this is to place all animation logic in one interval with the understanding that animation calls may be running even though a particular element may not require any animation for the current frame. The alternative is to use separate intervals. The problem with this approach is that each time you move something on screen, your browser has to repaint the screen. This is wasteful! 
 
 > #### 2. requestAnimationFrame 
