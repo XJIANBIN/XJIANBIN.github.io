@@ -11,7 +11,7 @@ key:            Vue_templateRender
 
 ### 一 写在前面
 
-本文是学习Vue源码的笔记，如果想要详细了解，可查阅参考资料或源码自信阅读。
+本文是学习Vue源码的笔记，如果想要详细了解，可查阅参考资料或自行阅读源码。
 
 ### 二 模板渲染
 
@@ -21,13 +21,20 @@ render function 顾名思义就是渲染函数，这个函数是通过编译模�
 
 > 渲染过程
 
-* 1, `new Vue()`：实例化Vue               
-* 2, `$mount()`: 获取模板,并且在这过程中通过调用相关方法_count（new Watcher()实现数据响应式）
-* 3, `compileToFunction()`： 将 template 编译成 render 函数。首先读缓存，没有缓存就调用 compile 方法拿到 render function 的字符串形式，在通过new Function 的方式生成真正的渲染函数
-* 4, `compile`：将 template 编译成 render 函数的字符串形式,这个函数主要有三个步骤组成：parse，optimize 和 generate，最终输出一个包含 ast，render 和staticRenderFns的对象。compile 函数主要是将 template 转换为 AST，优化 AST，再将 AST 转换为 render function；render function 与数据通过 Watcher 产生关联。
-* 5,  `update()`：update 函数会执行这个渲染函数，输出一个新的 VNode 树形结构的数据（VNode对象即Virtual DOM）。
+* 1, `new Vue()`：实例化Vue   
+
+* 2, `$mount()`: 获取模板,并且在这过程中通过调用相关方法_count（new Watcher()实现数据响应式，当Watcher监听到数据变化,就会执行reder函数输出一个新的 VNode 树形结构的数据（VNode对象即Virtual DOM）[`_mount方法源码`](https://github.com/vuejs/vue/blob/v2.1.10/src/core/instance/lifecycle.js#L64-L66)?
+
+* 3, `compileToFunction()`： 将 template 编译成 render 函数。首先读缓存（在compileToFunction()中,会创建一个对象，把complice编译完后的对象的render 和 staticRenderFns 两个属性分别转换成函数缓存在对象中，然后把对象存进缓存（但是笔者有一点迷惑就是根据官网[`模板编译`](https://cn.vuejs.org/v2/guide/render-function.html#模板编译)compile编译完的对象属性已经是方法了，不是字符串，但是源码中确实返回的是字符串，根据[`generate`](https://github.com/vuejs/vue/blob/v2.1.10/src/compiler/codegen/index.js#L22-L47)可看出），没有缓存就调用 compile 方法拿到 render function 的字符串形式，在通过new Function 的方式生成真正的渲染函数
+
+* 4, `compile`：将 template 编译成 render 函数的字符串形式,这个函数主要有三个步骤组成：parse，optimize 和 generate，最终输出一个包含 ast，render 和
+staticRenderFns的对象。compile 函数主要是将 template 转换为 AST，优化 AST，再将 AST 转换为 render function字符串,render function 与数据通过 Watcher 产生关联。
+
+* 5,  `update()`：update判断是否首次渲染，是则直接创建真实DOM,否则调用patch(),并且进行触发钩子和更新引用等其他操作。[`参考`](https://github.com/vuejs/vue/blob/v2.1.10/src/core/instance/lifecycle.js#L77-L114)
+
 * 6,  `patch()`：新旧 VNode 对比的 diff 函数,对两个树结构进行完整的diff和patch的过程，最终只有发生了变化的节点才会被更新到真实 DOM 树上。
-* 7,  `destroy()`：销毁对象
+
+* 7,  `destroy()`：完全销毁一个实例。清理它与其它实例的连接，解绑它的全部指令及事件监听器。触发 beforeDestroy 和 destroyed 的钩子。在大多数场景中你不应该调用这个方法。最好使用 v-if 和 v-for 指令以数据驱动的方式控制子组件的生命周期。 [`查看源码`](https://github.com/vuejs/vue/blob/v2.1.10/src/core/instance/lifecycle.js#L167)
 
 > 当数据发生变化，会执行Watcher中的_update函数,_update会执行这个渲染函数，输出一个新的VNode对象，然后调用patch函数，拿这个新的 VNode 与旧的 VNode 进行对比(diff，只有发生了变化的节点才会被更新到真实 DOM 树上。
 
