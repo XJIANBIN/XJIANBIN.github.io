@@ -13,11 +13,13 @@ headercolor: "#FFFFFF"
 logo: /XJIANBIN.github.io/img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
-github_username:  XJIANBIN
+github_username: XJIANBIN
 project_repository: XJIANBIN.github.io
 disqus_shortname: XJIANBIN-github.io
 g-analytics: UA-75881392-1
 altmetric: true
+weibo_username: true
+zhihu_username: true
 
 # Build settings
 gems: [jekyll-paginate]
