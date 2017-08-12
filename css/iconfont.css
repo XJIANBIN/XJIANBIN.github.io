@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url({{ "/css/iconfont.eot?t=1502463262211" | prepend: site.baseurl | prepend: site.url }}); /* IE9*/
-  src: url({{ "/css/iconfont.eot?t=1502463262211#iefix" | prepend: site.baseurl | prepend: site.url }}) format('embedded-opentype'), /* IE6-IE8 */
-  url({{ "/css/iconfont.woff?t=1502463262211" | prepend: site.baseurl | prepend: site.url }}) format('woff'), /* chrome, firefox */
-  url({{ "/css/iconfont.ttf?t=1502463262211" | prepend: site.baseurl | prepend: site.url }}') format('truetype), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url({{ "/css/iconfont.svg?t=1502463262211#iconfont" | prepend: site.baseurl | prepend: site.url }}) format('svg'); /* iOS 4.1- */
+  src: url("{{ "/css/iconfont.eot?t=1502463262211" | prepend: site.baseurl | prepend: site.url }}"); /* IE9*/
+  src: url("{{ "/css/iconfont.eot?t=1502463262211#iefix" | prepend: site.baseurl | prepend: site.url }}") format('embedded-opentype'), /* IE6-IE8 */
+  url("{{ "/css/iconfont.woff?t=1502463262211" | prepend: site.baseurl | prepend: site.url }}") format('woff'), /* chrome, firefox */
+  url("{{ "/css/iconfont.ttf?t=1502463262211" | prepend: site.baseurl | prepend: site.url }}") format('truetype), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url("{{ "/css/iconfont.svg?t=1502463262211#iconfont" | prepend: site.baseurl | prepend: site.url }}") format('svg'); /* iOS 4.1- */
 }
 
 .iconfont{
