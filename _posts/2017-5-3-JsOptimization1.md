@@ -60,11 +60,11 @@ key:            optimization1
 
 ```javascript
 	function throttle(fn,delay){
-		var last,timer,delay || (delay=250);
+		var last,timer;delay || (delay=250);
 		return function(){
 			var _this=this;
 			var args=arguments;
-			var now=+ now Date();
+			var now=+ new Date();
 			if(last && now-last < delay){
 				clearTimeout(timer);
 				timer=setTimeout(function(){
