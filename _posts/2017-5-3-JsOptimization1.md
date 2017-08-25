@@ -82,8 +82,8 @@ key:            optimization1
 > ### 使用方法
 
 ```javascript
-	window.scroll=debounce(dosomething,200);
-	window.scroll=throttle(dosomething,200);
+	window.onscroll=debounce(dosomething,200);
+	window.onscroll=throttle(dosomething,200);
 ```
 
 ## 五.其他完整实现
