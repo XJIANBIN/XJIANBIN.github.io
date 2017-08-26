@@ -47,8 +47,10 @@ staticRenderFns的对象。compile 函数主要是将 template 转换为 AST，�
 
   * 2运行时构建不包含模板编译器，因此不支持template选项，只能用render选项，但即使使用运行时构建，在单文件组建中也依然可以写模板，因为单位件组件的模板会在构建时预编译
     为render函数，运行时构建比独立构建要轻量30%。
-
-  > 在$mount的不同：
+ 
+  > 参考资料: [从一个奇怪的错误出发理解 Vue 基本概念](https://github.com/KingMario/think-in-vue/tree/master/standalone-vs-runtime-only-build)
+	
+  > #### 在$mount的不同：
 
   运行时构建的$mount函数:
 
