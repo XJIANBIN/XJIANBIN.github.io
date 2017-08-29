@@ -8,193 +8,211 @@
 
 <url>
   <loc>http://xujianbin.pw/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/projects/project1/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/about/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/search/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/members/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://xujianbin.pw/project/2017/05/21/Vuex-dispatch/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <loc>http://xujianbin.pw/plugin/projector/</loc>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://xujianbin.pw/project/2017/08/08/clipboardData/</loc>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/search/index.html</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://xujianbin.pw/project/2017/08/06/Vue-templateRender/</loc>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://xujianbin.pw/project/2017/05/21/Vuex-dispatch/</loc>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2017/05/13/optimization3-requestAnimationFrame/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2017/05/09/optimization2-JQueryPerformance/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2017/05/03/JsOptimization1/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2017/05/01/whyselectmvvm/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/suibi/2017/04/29/suibi2/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2017/04/22/bug/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2017/04/17/window.URL.createObjectURL/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://xujianbin.pw/project/2017/04/04/chromeExtensions/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://xujianbin.pw/project/2017/03/15/For-loop-and-Closures/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/page2/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/suibi/2016/10/27/suibi/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://xujianbin.pw/project/2017/03/15/For-loop-and-Closures/</loc>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2017/03/11/Boolean/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://xujianbin.pw/project/2017/04/04/chromeExtensions/</loc>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2017/03/14/input-and-file/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2017/03/04/JS-single-thread/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2017/01/30/JS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2017/01/14/onerror/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2016/11/30/display-none-and-visibility-hidden/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2016/11/29/bootstrap-and-X5/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2016/11/18/handlebars/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://xujianbin.pw/project/2016/11/04/JS%E7%9A%84%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%A7%98%E5%AF%86/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/page3/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/project/2016/10/26/blog_tip/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xujianbin.pw/project/2016/11/04/JS%E7%9A%84%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%A7%98%E5%AF%86/</loc>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/2016/05/02/New-Surface-Visualization/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/2016/05/02/New-Projector/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>http://xujianbin.pw/2016/05/02/New-Presentation/</loc>
-  <lastmod>2017-06-03T02:49:46+00:00</lastmod>
+  <lastmod>2017-08-27T03:43:46+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.51</priority>
 </url>
