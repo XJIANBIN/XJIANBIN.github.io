@@ -22,7 +22,7 @@ weibo_username: true
 zhihu_username: true
 
 # Build settings
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
