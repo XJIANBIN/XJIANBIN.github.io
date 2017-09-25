@@ -4,6 +4,7 @@ http://xujianbin.pw/projects/project1/
 http://xujianbin.pw/about/
 http://xujianbin.pw/search/
 http://xujianbin.pw/members/
+http://xujianbin.pw/project/2017/09/22/interview1/
 http://xujianbin.pw/project/2017/08/08/clipboardData/
 http://xujianbin.pw/project/2017/08/06/Vue-templateRender/
 http://xujianbin.pw/project/2017/05/21/Vuex-dispatch/
