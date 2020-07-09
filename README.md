@@ -6,7 +6,10 @@
 ### 前端相关知识整理
 
 #### Network
+
 > [Network 基础一](https://github.com/XJIANBIN/XJIANBIN.github.io/issues/49#issue-653852168)
+
+> [http历史版本对比](https://github.com/XJIANBIN/img-warehouse/tree/master/xmind)
 
 #### 打包相关
 > [前端构建工具](https://github.com/XJIANBIN/XJIANBIN.github.io/issues/19)
