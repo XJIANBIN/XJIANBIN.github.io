@@ -55,6 +55,7 @@
 
 
 ### 课外扩展
+>[渐变文字](https://github.com/XJIANBIN/XJIANBIN.github.io/issues/50)
 
 > [微信webview设置字体](https://github.com/XJIANBIN/XJIANBIN.github.io/issues/47#issue-638626634)
 
