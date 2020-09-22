@@ -55,6 +55,8 @@
 
 
 ### 课外扩展
+> [Tree-Shaking](https://github.com/XJIANBIN/XJIANBIN.github.io/issues/54)
+
 > [唤起APP技术](https://github.com/XJIANBIN/XJIANBIN.github.io/issues/53)
 
 > [GitLab自动化部署](https://github.com/XJIANBIN/XJIANBIN.github.io/issues/52)
